@@ -1,0 +1,11 @@
+$primary: #151515;
+$secondary: #272727; // Corrected spelling
+$tertiary: #E5E5E5;
+$black: #000000;
+$custom-colors: (
+  "secondary": ($secondary), // Corrected spelling
+  "tertiary": ($tertiary),
+  "black": ($black)
+);
+
+@import "../node_modules/bulma/bulma.sass";
